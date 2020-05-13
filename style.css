@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Teko:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    text-align: center;
+    padding: .8em 1.5em;
+}
+#header{
+    display: block;
+    margin: 0 auto;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+}
+#text h1{
+    font-size: 3.8em;
+    margin: .1em .1em;
+    padding: 0;
+    text-decoration: none;
+    color: #7a4011;
+}
+span #go{
+    color: #4d2200;
+}
+#nav-bar{
+    font-size: 2.2em;
+
+}
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    background: #e0ab81;
+}
+#nav-bar ul li{
+    width: 33.5%;
+    background: #e0ab81;
+    margin: 0;
+    
+}
+#nav-bar ul li a{
+    color: #4d2200;
+    display: block;
+}
+#nav-bar ul li a:hover{
+    color: #e0ab81;
+    background: #4d2200;
+}
+
+
+
+
+
+
+
+
+
+
+#hero img{
+    width: 20%;
+}

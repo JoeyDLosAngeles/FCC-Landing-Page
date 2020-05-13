@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FCC Landing Page</title>
+</head>
+<body>
+    <div id="container"> <!-- Whole page container-->
+        <header id="header">
+            <div id="logo"><div id="img_logo"><a href="index.html"><img src="img/logo_top.jpg" alt="coffee cup logo" id="header-img"></div>
+            <div id="text"> <h1><span id="go">Go</span>Xpresso</h1></a></div></div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#cup">Video</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#form_container">Sign-up</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="hero">
+            <img src="img/Coffee_hero.svg" alt="coffee cup figure" id="img_hero">
+            <h2>Mobile Espresso Unit</h2>
+            <p>Take an Espresso machine where ever you go!</p>
+        </section>
+
+        <div id="cup">
+            <div id="dk_brn_top"> 
+                <div id="lt_brn_top">
+                   <iframe id="video" width="580" height="326" src="https://www.youtube.com/embed/lSppIjPSxyc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div id="dk_brn_bottom_cup">
+                <div id="lt_brn_bottom_cup">
+
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <ul>
+                <li><span id="box1"></span></li>
+                <li><h2>About GoXpresso</h2></li>
+                <li><span id="box2"></span></li>
+            </ul>
+            <div id="about_p">
+                <img src="img/Coffee.jpg" alt="bag of coffee">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+                    et justo duo dolores et ea rebum.</p>
+            </div>
+        </div>
+
+        <div id="form_container">
+            <form action=" https://www.freecodecamp.com/email-submit" id="form"> <!-- make action happen to submit to fcc url-->
+                <ul>
+                    <li><span id="top_sub">Sign-up for our newsletter.</span></li>
+                    <li><label for="email"></label>
+                        <input type="email" name="name" id="email" placeholder="Your Email Here!">
+                    </li>
+                    <li><input type="submit" id="submit"></li> <!-- goes to url fcc.org-->
+
+                </ul>
+            </form>
+        </div>
+
+    <footer>
+        <div id="foot_logo"><a href="index.html"><img src="img/bottom_logo.jpg" alt="coffee cup logo" id="header-img">
+                <h1><span id="Go">Go</span>Xpresso</h1>
+                <p>Chatsworth, Ca, 91311 <br> Email: JoeyDLosAngeles@gmail.com</p>
+            </a></div>
+            <ul id="tos">
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+
+
+    </footer>
+
+
+    </div>
+</body>
+</html>
