@@ -39,8 +39,13 @@ a{
 }
 #nav-bar{    /* ###### NAV ########## */
     font-size: 2.2em;
+    z-index: 3;
+    position: sticky;
+    top: 0;
 }
 #nav-bar ul{
+
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     background: #e0ab81;
@@ -174,7 +179,7 @@ a{
     border-top-right-radius: 15px;
     
 }
-.break{
+#break{
     position: relative;
     top: -100px;
     background: url(img/background.png);
@@ -182,3 +187,124 @@ a{
     height: 40px;
     border-top: 2px solid #4d2200;
 }
+#about{
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+#about ul{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 0 0;
+    padding: 0;
+
+}
+#about ul li{
+    width: 33%;
+
+ 
+}
+#about ul li h2{
+    background: #fff;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #4d2200;
+    line-height: 1em;
+    padding: 4px;
+    margin: 0; 
+}
+#box1{
+    background: url(img/background.png);
+    height: 60px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+#box2{
+    background: url(img/background.png);
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#about_p{
+    margin-bottom: 35%;
+}
+#about_p img{
+    float: left;
+    height: 110%;
+    padding: 0 5px 0 5px;
+}
+
+.form_container {
+    background: #AA6b39;
+    padding: 35px;
+    margin-top: 15%;
+    position: relative;
+}
+.form_container:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #7a4011;
+    position: absolute;
+    top: -39px;
+    right: 0px;
+    z-index: 4;
+    
+}
+.form_containerII{
+    position: relative;
+}
+.form_containerII:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #e0ab81;
+    position: absolute;
+    top: -39px;
+    left: 0px;
+    z-index: 4;
+    
+}
+.form_container #top_sub{
+    font-size: 30px;
+    color: #fff;
+}
+.form_container ul li{
+    margin-bottom: 25px;
+}
+/*
+
+.form_container:before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #7a4011;
+    position: absolute;
+    top: -39px;
+    right: 0px;
+    z-index: -2;
+}
+.form_container:after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    top: -80px;
+    left: 0;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+.form_container:after{
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    position: absolute;
+    top: -80px;
+    right: 0;
+    border-radius: 50%;
+    z-index: -1;
+}*/
+
+
