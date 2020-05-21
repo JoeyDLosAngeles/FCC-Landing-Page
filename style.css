@@ -15,11 +15,12 @@ ul{
 a{
     text-decoration: none;
 }
-#container{
+body .container{
     margin: 0 auto;
     width: 90%;
     text-align: center;
     padding: .8em 1.5em;
+
 }
 header{
     background: #fff;
@@ -30,76 +31,76 @@ header{
     top: -90px;
     z-index: 5;
 }
-#logo{
+.header .logo{
     display: flex;
     justify-content: center;    
 }
-#text h1{
+.text h1{
     font-size: 3.8em;
     margin: .1em .1em;
     padding: 0;
     text-decoration: none;
     color: #7a4011;
 }
-#go{
+.go{
     color: #4d2200;
 }
-#nav-bar{    /* ###### NAV ########## */
+.nav-bar{    /* ...... NAV .......... */
     font-size: 2.2em;
     z-index: 3;
     width: 100%;
     margin: 0 auto;    
 }
-#nav-bar ul{
+.nav-bar ul{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
-#nav-bar ul li{
+.nav-bar ul li{
     width: 33.5%;
     background: #e0ab81;
     margin: 0 5px;
 }
-#nav-bar ul li a{
+.nav-bar ul li a{
     color: #4d2200;
 }
-#nav-bar ul li:hover{
+.header .nav-bar ul li:hover{
     color: #e0ab81;
     background: #4d2200;
 }
-#nav-bar ul li a:hover{
+.nav-bar ul li a:hover{
     color: #e0ab81;
     background: #4d2200;
 }
-#hero{      /* ############ HERO SECTION ########### */
+.hero{      /* ............ HERO SECTION ........... */
     margin-top: 30%;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
-#hero img{
+.hero img{
     width: 60%;
     margin: 20px auto;
 }
-#hero h2{
+.hero h2{
     font-size: 3.2em;
     color: #4d2200;
     margin-top: -10px;
     padding: 0;
 }
-#hero p{
+.hero p{
     margin-top: -40px;
     margin-bottom: 20px;
     color: #7a4011;
     font-size: 1.2em;
 }
-#cup{ /* ######## COFFEE CUP PLAYER ########## */
+.cup{ /* ........ COFFEE CUP PLAYER .......... */
     margin: 30% 0;
 }
 .hide-mobile{  /* HIDE MOBILE */
     display: none;
 }
-#dk_brn_top{
+.dk_brn_top{
     margin-top: 20%;
     background: #4d2200;
     padding-bottom: 2px;
@@ -108,7 +109,7 @@ header{
     min-width: 90%;
     position: relative;
 }
-#lt_brn_top{
+.lt_brn_top{
     background: #7a4011;
     margin: 0 10% 2% 10%;
     border-bottom-left-radius: 35px;
@@ -116,7 +117,7 @@ header{
     padding-top: 15%;
     min-width: 290px;
 }
-#lt_brn_top2{
+.lt_brn_top2{
     position: absolute;
     top: 0%;
     left: 7%;
@@ -127,7 +128,7 @@ header{
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-#lt_brn_top3{
+.lt_brn_top3{
     position: absolute;
     top: 0%;
     left: 4%;
@@ -138,14 +139,14 @@ header{
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-#video{
+.video{
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     overflow: hidden;
     width: 280px;
     height: 150px;
 }
-#dk_brn_bottom_cup{
+.dk_brn_bottom_cup{
     background: #4d2200;
     height: 40px;
     border-radius: 15px;
@@ -153,7 +154,7 @@ header{
     position: relative;
     min-width: 90%;
 }
-#lt_brn_bottom_cup1{
+.lt_brn_bottom_cup1{
     position: absolute;
     background: #7a4011;
     height: 15px;
@@ -163,7 +164,7 @@ header{
     margin: 0 auto;
     border-top-right-radius: 15px;    
 }
-#lt_brn_bottom_cup2{
+.lt_brn_bottom_cup2{
     position: absolute;
     background: #7a4011;
     height: 8px;
@@ -174,7 +175,7 @@ header{
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 15px;
 }
-#lt_brn_bottom_cup3{
+.lt_brn_bottom_cup3{
     position: absolute;
     background: #7a4011;
     height: 10px;
@@ -186,29 +187,29 @@ header{
     border-top-right-radius: 15px;
     
 }
-#break{
+.break{
     position: relative;
     top: -100px;
     background: url(img/background.png);
     width: 100%;
     height: 40px;
-    border-top: 2px solid #4d2200;
+    border-top: 2px solid .4d2200;
 }
-#about{
+.about{
     margin: 20px 0 0 0;
     padding: 0;
 }
-#about ul{
+.about ul{
     display: flex;
     flex-direction: row;
     margin: 20px 0 0 0;
     padding: 0;
 
 }
-#about ul li{
+.about ul li{
     width: 33%; 
 }
-#about ul li h2{
+.about ul li h2{
     background: #fff;
     border-radius: 15px;
     font-size: 30px;
@@ -217,23 +218,23 @@ header{
     padding: 4px;
     margin: 0; 
 }
-#box1{
+.box1{
     background: url(img/background.png);
     height: 60px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 
 }
-#box2{
+.box2{
     background: url(img/background.png);
     height: 60px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-#about_p{
+.about_p{
     margin-bottom: 35%;
 }
-#about_p img{
+.about_p img{
     float: left;
     height: 110%;
     padding: 0 5px 0 5px;
@@ -290,21 +291,21 @@ header{
     z-index: 4; 
     border-bottom-left-radius: 50%; 
 }
-.form_container #top_sub{
+.form_container .top_sub{
     font-size: 2em;
     color: #fff;
 }
 .form_container ul li{
     margin-bottom: 25px;
 }
-.form_container #email{
+.form_container .email{
     width: 70%;
     height: 30px;
     border-radius: 10px;
     font-size: 20px;
     padding: 10px;
 }
-.form_container #submit{
+.form_container .submit{
     width: 60%;
     height: 40px;
     background-color: #4d2200;
@@ -319,35 +320,34 @@ header{
 footer{
     background: #4d2200;
 }
-footer #foot_logo{
+footer .foot_logo{
     display: block;
     margin: 0 auto;
     text-align: center;
 }
-footer #f-wrap{
+footer .f-wrap{
     display: flex;
     justify-content: center;
     height: 70px;
 
 }
-footer #foot-logo-text{
+footer .foot-logo-text{
     font-size: 1.8em;
     margin: -32px 0 0;
     padding: 0;
     text-decoration: none;
     color: #e0ab81;
 }
-#gof{
+.gof{
    color: #fff;
 }
 .left-foot{
     color: #e0ab81;
     line-height: .8em;
 }
-#right-foot a{
+.right-foot a{
     color: #e0ab81;
 }
-
 
 @media screen and (min-width: 775px){
     header{
@@ -357,29 +357,29 @@ footer #foot-logo-text{
         padding: 0;
         z-index: 5;
     }
-    #header{
+    .header{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     }
-    #nav-bar ul{ 
+    .nav-bar ul{ 
         margin: 12px auto 0 auto;
         padding: 5px;
     }
-    #nav-bar ul li{
+    .nav-bar ul li{
         width: 33%;
         text-align: center;
     }
-    #nav-bar ul li a{
+    .nav-bar ul li a{
         font-size: 45px;   
     }
-    #hero img{
+    .hero img{
         width: 80%;
     }
-    #hero h2{
+    .hero h2{
         font-size: 3.8em;
     }
-    #hero p{
+    .hero p{
         font-size: 1.5em;
     }
     .show-desktop{
@@ -388,11 +388,10 @@ footer #foot-logo-text{
     .hide-desktop{
         display: none;
     }
-    #about{
+    .about{
         width: 70%;
         margin: 0 auto;
     }
-
 
 }
 
