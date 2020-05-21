@@ -1,48 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Teko:wght@500&display=swap');
-body{
+/* imported google fonts ^*/
+body{ /* clear out defaults */
     margin: 0;
     padding: 0;
     font-family: 'Teko', sans-serif;
 }
-p{
+p{ /* assign defaults */
     font-family: 'Montserrat', sans-serif;
 }
-ul{
+ul{ /* assigning defaults */
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-a{
+a{ /* assigning defaults */
     text-decoration: none;
 }
-body .container{
+body .container{  /* defining container */
     margin: 0 auto;
     width: 90%;
     text-align: center;
     padding: .8em 1.5em;
 
 }
-header{
+header{ /* defining the header */
     background: #fff;
     display: block;
     margin: 0 auto;
     text-align: center;
-    position: sticky;
+    position: sticky; /* stick nav to top*/
     top: -90px;
     z-index: 5;
 }
-.header .logo{
+.header .logo{ /* wrapper for logo */
     display: flex;
     justify-content: center;    
 }
-.text h1{
+.text h1{ /* text for logo */
     font-size: 3.8em;
     margin: .1em .1em;
     padding: 0;
-    text-decoration: none;
     color: #7a4011;
 }
-.go{
+.go{ /* go text color change */
     color: #4d2200;
 }
 .nav-bar{    /* ...... NAV .......... */
@@ -51,12 +51,12 @@ header{
     width: 100%;
     margin: 0 auto;    
 }
-.nav-bar ul{
+.nav-bar ul{ /* style the unorder list */
     margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
-.nav-bar ul li{
+.nav-bar ul li{ /* adjust background color and spacing of the li */
     width: 33.5%;
     background: #e0ab81;
     margin: 0 5px;
@@ -64,11 +64,11 @@ header{
 .nav-bar ul li a{
     color: #4d2200;
 }
-.header .nav-bar ul li:hover{
+.header .nav-bar ul li:hover{ /* color change of hover */
     color: #e0ab81;
     background: #4d2200;
 }
-.nav-bar ul li a:hover{
+.nav-bar ul li a:hover{  /* color change of hover */
     color: #e0ab81;
     background: #4d2200;
 }
@@ -78,7 +78,7 @@ header{
     flex-direction: column;
     justify-content: start;
 }
-.hero img{
+.hero img{ /* machine image */
     width: 60%;
     margin: 20px auto;
 }
