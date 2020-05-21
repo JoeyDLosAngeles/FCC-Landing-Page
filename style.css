@@ -313,7 +313,8 @@ header{
     border-radius: 10px;
 }
 .hidden{
-    display: none;
+    color: #AA6b39;
+    font-size: 1px;
 }
 footer{
     background: #4d2200;
