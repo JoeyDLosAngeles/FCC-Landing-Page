@@ -16,16 +16,22 @@ a{
     text-decoration: none;
 }
 #container{
+    margin: 0 auto;
+    width: 90%;
     text-align: center;
     padding: .8em 1.5em;
 }
-#header{
+header{
     display: block;
     margin: 0 auto;
+    text-align: center;
+    position: sticky;
+    top: -90px;
+    z-index: 5;
 }
 #logo{
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 #text h1{
     font-size: 3.8em;
@@ -40,25 +46,25 @@ a{
 #nav-bar{    /* ###### NAV ########## */
     font-size: 2.2em;
     z-index: 3;
-    position: sticky;
-    top: 0;
+    width: 100%;
+    margin: 0 auto;    
 }
 #nav-bar ul{
-
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    background: #e0ab81;
 }
 #nav-bar ul li{
     width: 33.5%;
     background: #e0ab81;
-    margin: 0;
-    
+    margin: 0 5px;
 }
 #nav-bar ul li a{
     color: #4d2200;
-    display: block;
+}
+#nav-bar ul li:hover{
+    color: #e0ab81;
+    background: #4d2200;
 }
 #nav-bar ul li a:hover{
     color: #e0ab81;
@@ -199,9 +205,7 @@ a{
 
 }
 #about ul li{
-    width: 33%;
-
- 
+    width: 33%; 
 }
 #about ul li h2{
     background: #fff;
@@ -244,12 +248,22 @@ a{
     content: "";
     width: 40px;
     height: 40px;
-    background-color: #7a4011;
+    background-color: #AA6b39;
     position: absolute;
     top: -39px;
     right: 0px;
-    z-index: 4;
-    
+    z-index: -2;    
+}
+.form_container:after{
+    content: "";
+    width: 40px;
+    height: 39px;
+    background-color: #fff;
+    position: absolute;
+    top: -39px;
+    right: 0px;
+    z-index: 4; 
+    border-bottom-right-radius: 50%;   
 }
 .form_containerII{
     position: relative;
@@ -258,53 +272,123 @@ a{
     content: "";
     width: 40px;
     height: 40px;
-    background-color: #e0ab81;
+    background-color: #AA6b39;
     position: absolute;
     top: -39px;
     left: 0px;
-    z-index: 4;
-    
+    z-index: -2;
+}
+.form_containerII:after{
+    content: "";
+    width: 40px;
+    height: 39px;
+    background-color: #fff;
+    position: absolute;
+    top: -39px;
+    left: 0px;
+    z-index: 4; 
+    border-bottom-left-radius: 50%; 
 }
 .form_container #top_sub{
-    font-size: 30px;
+    font-size: 2em;
     color: #fff;
 }
 .form_container ul li{
     margin-bottom: 25px;
 }
-/*
-
-.form_container:before{
-    content: "";
-    width: 40px;
+.form_container #email{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.form_container #submit{
+    width: 60%;
     height: 40px;
-    background-color: #7a4011;
-    position: absolute;
-    top: -39px;
-    right: 0px;
-    z-index: -2;
+    background-color: #4d2200;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 10px;
 }
-.form_container:after{
-    content: "";
-    width: 80px;
-    height: 80px;
-    background-color: #fff;
-    top: -80px;
-    left: 0;
-    position: absolute;
-    border-radius: 50%;
-    z-index: -1;
+footer{
+    background: #4d2200;
 }
-.form_container:after{
-    content: "";
-    width: 80px;
-    height: 80px;
-    background-color: #fff;
-    position: absolute;
-    top: -80px;
-    right: 0;
-    border-radius: 50%;
-    z-index: -1;
-}*/
+footer #foot_logo{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+footer #f-wrap{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+
+}
+footer #foot-logo-text{
+    font-size: 1.8em;
+    margin: -32px 0 0;
+    padding: 0;
+    text-decoration: none;
+    color: #e0ab81;
+}
+#gof{
+   color: #fff;
+}
+.left-foot{
+    color: #e0ab81;
+    line-height: .8em;
+}
+#right-foot a{
+    color: #e0ab81;
+}
+
+
+@media screen and (min-width: 775px){
+    header{
+        position: sticky;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        z-index: 5;
+    }
+    #header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    }
+    #nav-bar ul{ 
+        margin: 12px auto 0 auto;
+        padding: 5px;
+    }
+    #nav-bar ul li{
+        width: 33%;
+        text-align: center;
+    }
+    #nav-bar ul li a{
+        font-size: 45px;   
+    }
+    #hero img{
+        width: 80%;
+    }
+    #hero h2{
+        font-size: 3.8em;
+    }
+    #hero p{
+        font-size: 1.5em;
+    }
+    .show-desktop{
+        display: inline;
+    }
+    .hide-desktop{
+        display: none;
+    }
+    #about{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+}
 
 

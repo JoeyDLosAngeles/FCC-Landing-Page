@@ -9,19 +9,20 @@
 <body>
     <div id="container"> <!-- Whole page container-->
         <header id="header">
-            <div id="logo"><div id="img_logo"><a href="index.html"><img src="img/logo_top.jpg" alt="coffee cup logo" id="header-img"></div>
-            <div id="text"> <h1><span id="go">Go</span>Xpresso</h1></a></div></div>
-
-        </header>
+            <div id="logo">
+                <div id="img_logo"><a href="index.html"><img src="img/logo_top.jpg" alt="coffee cup logo" id="header-img"></a></div>
+                <div id="text"><h1><span id="go">Go</span>Xpresso</h1></div>
+            </div>
+        
                     <nav id="nav-bar">
-                        <!-- nav  -------------->
+                        <!-- nav  -->
                         <ul>
                             <li><a href="#link1">Video</a></li>
                             <li><a href="#break">About</a></li>
                             <li><a href="#form_container">Sign-up</a></li>
                         </ul>
                     </nav>
-
+        </header>
         <section id="hero"> <!-- hero section -->
             
             <img src="img/minipresso-ns-500x500.png" alt="Espresso machine" id="img_hero">
@@ -39,7 +40,7 @@
                 <div id="lt_brn_top3">
                 </div>
                 <div id="lt_brn_top">
-                    <div class="hide-mobile show-desktop"> <iframe id="video" width="580" height="326" src="https://www.youtube.com/embed/lSppIjPSxyc" frameborder="0"
+                    <div class="hide-mobile show-desktop"> <iframe id="video-lg" width="580" height="326" src="https://www.youtube.com/embed/lSppIjPSxyc" frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="show-mobile hide-desktop"> <iframe id="video" width="300" height="170" src="https://www.youtube.com/embed/lSppIjPSxyc" frameborder="0"
@@ -80,6 +81,7 @@
                     et justo duo dolores et ea rebum.</p>
             </div>
         </div>
+        <div id="form_container"></div>
         <div class="form_containerII"></div>
         <div class="form_container">
             <form action=" https://www.freecodecamp.com/email-submit" id="form"> <!-- make action happen to submit to fcc url-->
@@ -95,15 +97,23 @@
         </div>
 
     <footer>
-        <div id="foot_logo"><a href="index.html"><img src="img/bottom_logo.jpg" alt="coffee cup logo" id="header-img">
-                <h1><span id="Go">Go</span>Xpresso</h1>
-                <p>Chatsworth, Ca, 91311 <br> Email: JoeyDLosAngeles@gmail.com</p>
-            </a></div>
-            <ul id="tos">
+        <div id="foot_logo">
+            <div id="f-wrap">
+            <div id="f-logo-img"><a href="index.html"><img src="img/bottom_logo.jpg" alt="coffee cup logo"></a></div>
+            <div id="foot-logo-text"><h1><span id="gof">Go</span>Xpresso</h1></div>
+            </div>
+        </div>
+            
+            <ul class="left-foot">
+                <li><p>Chatsworth, Ca, 91311</p> </li>   
+                <li><p>Email: JoeyDLosAngeles@gmail.com</p></li>
+                <li><p>This page is a HTML/CSS project for freecodecamp.org</p></li>
+            </ul>
+            
+            <ul id="right-foot">
                 <li><a href="#">Terms of Service</a></li>
                 <li><a href="#">Privacy</a></li>
             </ul>
-
 
     </footer>
 
