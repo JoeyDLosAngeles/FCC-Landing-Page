@@ -82,13 +82,13 @@ header{ /* defining the header */
     width: 60%;
     margin: 20px auto;
 }
-.hero h2{
+.hero h2{ /* heaeding in the hero section */
     font-size: 3.2em;
     color: #4d2200;
     margin-top: -10px;
     padding: 0;
 }
-.hero p{
+.hero p{ /* tag line */
     margin-top: -40px;
     margin-bottom: 20px;
     color: #7a4011;
@@ -100,7 +100,7 @@ header{ /* defining the header */
 .hide-mobile{  /* HIDE MOBILE */
     display: none;
 }
-.dk_brn_top{
+.dk_brn_top{ /* css cup graphic top dark brown background */
     margin-top: 20%;
     background: #4d2200;
     padding-bottom: 2px;
@@ -109,7 +109,7 @@ header{ /* defining the header */
     min-width: 90%;
     position: relative;
 }
-.lt_brn_top{
+.lt_brn_top{ /* inset light brown css design behind player */
     background: #7a4011;
     margin: 0 10% 2% 10%;
     border-bottom-left-radius: 35px;
@@ -117,7 +117,7 @@ header{ /* defining the header */
     padding-top: 15%;
     min-width: 290px;
 }
-.lt_brn_top2{
+.lt_brn_top2{ /* longer lt brown graphic to the left */
     position: absolute;
     top: 0%;
     left: 7%;
@@ -128,7 +128,7 @@ header{ /* defining the header */
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-.lt_brn_top3{
+.lt_brn_top3{ /* shorter light brown graphic to the left */
     position: absolute;
     top: 0%;
     left: 4%;
@@ -139,14 +139,15 @@ header{ /* defining the header */
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-.video{
+.video-sm{ /* video player sm */ 
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     overflow: hidden;
     width: 280px;
     height: 150px;
+    margin: 0 auto;
 }
-.dk_brn_bottom_cup{
+.dk_brn_bottom_cup{ /* dark brown bottom of css cup graphic */
     background: #4d2200;
     height: 40px;
     border-radius: 15px;
@@ -154,7 +155,7 @@ header{ /* defining the header */
     position: relative;
     min-width: 90%;
 }
-.lt_brn_bottom_cup1{
+.lt_brn_bottom_cup1{ /* medium light brown line */
     position: absolute;
     background: #7a4011;
     height: 15px;
@@ -164,7 +165,7 @@ header{ /* defining the header */
     margin: 0 auto;
     border-top-right-radius: 15px;    
 }
-.lt_brn_bottom_cup2{
+.lt_brn_bottom_cup2{ /* long lt brown line */
     position: absolute;
     background: #7a4011;
     height: 8px;
@@ -175,7 +176,7 @@ header{ /* defining the header */
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 15px;
 }
-.lt_brn_bottom_cup3{
+.lt_brn_bottom_cup3{ /* short lt brown line */
     position: absolute;
     background: #7a4011;
     height: 10px;
@@ -187,7 +188,7 @@ header{ /* defining the header */
     border-top-right-radius: 15px;
     
 }
-.break{
+.break{ /* graphic break and link from navbar */
     position: relative;
     top: -100px;
     background: url(img/background.png);
@@ -195,21 +196,20 @@ header{ /* defining the header */
     height: 40px;
     border-top: 2px solid .4d2200;
 }
-.about{
+.about{ /* about section */
     margin: 20px 0 0 0;
     padding: 0;
 }
-.about ul{
+.about ul{ /* section header */
     display: flex;
     flex-direction: row;
     margin: 20px 0 0 0;
     padding: 0;
-
 }
-.about ul li{
+.about ul li{ /* section header */
     width: 33%; 
 }
-.about ul li h2{
+.about ul li h2{ /* section text */
     background: #fff;
     border-radius: 15px;
     font-size: 30px;
@@ -218,35 +218,34 @@ header{ /* defining the header */
     padding: 4px;
     margin: 0; 
 }
-.box1{
+.box1{ /* graphic to left of text in section header */
     background: url(img/background.png);
     height: 60px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-
 }
-.box2{
+.box2{ /* graphic to right of the text in section header */
     background: url(img/background.png);
     height: 60px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-.about_p{
+.about_p{ /* about text */
     margin-bottom: 35%;
 }
-.about_p img{
+.about_p img{ /* about graphic */
     float: left;
     height: 110%;
     padding: 0 5px 0 5px;
 }
 
-.form_container {
+.form_container { /* main form container */ 
     background: #AA6b39;
     padding: 35px;
     margin-top: 15%;
     position: relative;
 }
-.form_container:before{
+.form_container:before{ /* right upper curve background */
     content: "";
     width: 40px;
     height: 40px;
@@ -256,7 +255,7 @@ header{ /* defining the header */
     right: 0px;
     z-index: -2;    
 }
-.form_container:after{
+.form_container:after{ /* right white cover making the curve */
     content: "";
     width: 40px;
     height: 39px;
@@ -267,10 +266,10 @@ header{ /* defining the header */
     z-index: 4; 
     border-bottom-right-radius: 50%;   
 }
-.form_containerII{
+.form_containerII{ /* this creates the div for left side brown lip */
     position: relative;
 }
-.form_containerII:before{
+.form_containerII:before{ /* this creates the brown curved lip */
     content: "";
     width: 40px;
     height: 40px;
@@ -280,7 +279,7 @@ header{ /* defining the header */
     left: 0px;
     z-index: -2;
 }
-.form_containerII:after{
+.form_containerII:after{ /* this is the white cover for the left side */
     content: "";
     width: 40px;
     height: 39px;
@@ -291,14 +290,14 @@ header{ /* defining the header */
     z-index: 4; 
     border-bottom-left-radius: 50%; 
 }
-.form_container .top_sub{
+.form_container .top_sub{ /* header for the form */
     font-size: 2em;
     color: #fff;
 }
-.form_container ul li{
+.form_container ul li{ /* sets the margins for the form UL li*/
     margin-bottom: 25px;
 }
-.form_container .email-input{
+.form_container .email-input{ /* formats the input section */
     width: 70%;
     height: 30px;
     border-radius: 10px;
@@ -306,7 +305,7 @@ header{ /* defining the header */
     padding: 10px;
     text-align: center;
 }
-.form_container .submit{
+.form_container .submit{ /* formats the submit button */
     width: 60%;
     height: 40px;
     background-color: #4d2200;
@@ -318,78 +317,84 @@ header{ /* defining the header */
     position: absolute;
     text-indent: -50000px;
 }
-footer{
+footer{ /* footer color */
     background: #4d2200;
 }
-footer .foot_logo{
+footer .foot_logo{ /* logo image of the footer */
     display: block;
     margin: 0 auto;
     text-align: center;
 }
-footer .f-wrap{
+footer .f-wrap{ /* wraps the logo text and image */
     display: flex;
     justify-content: center;
     height: 70px;
 
 }
-footer .foot-logo-text{
+footer .foot-logo-text{  /* logo text */
     font-size: 1.8em;
     margin: -32px 0 0;
     padding: 0;
     text-decoration: none;
     color: #e0ab81;
 }
-.gof{
+.gof{ /*  color changed text */
    color: #fff;
 }
-.left-foot{
+.left-foot{ /* first section of footer text */
     color: #e0ab81;
     line-height: 1.2em;
 }
-.right-foot a{
+.right-foot a{ /* bottom section of footer text */
     color: #e0ab81;
 }
 
 @media screen and (min-width: 775px){
-    header{
+    header{ /* sets new header to sticky*/
         position: sticky;
-        top: 0;
-        margin: 0;
-        padding: 0;
+        top: 0; 
         z-index: 5;
     }
-    .header{
+    .header{ /* changes header alignment */
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     }
-    .nav-bar ul{ 
+    .nav-bar ul{ /* changes nav alignment */
         margin: 12px auto 0 auto;
         padding: 5px;
     }
-    .nav-bar ul li{
+    .nav-bar ul li{ /* nav spacing */
         width: 33%;
         text-align: center;
     }
-    .nav-bar ul li a{
+    .nav-bar ul li a{ /*nav font */
         font-size: 45px;   
     }
-    .hero img{
+    .hero img{ /* increases img size */
         width: 80%;
     }
-    .hero h2{
+    .hero h2{ /* heading size */
         font-size: 3.8em;
     }
-    .hero p{
+    .hero p{ /* paragraph font size *//
         font-size: 1.5em;
     }
-    .show-desktop{
+    .show-desktop{ /* displays large player */
         display: inline;
     }
-    .hide-desktop{
+    .video-lg{ /* video player lg */ 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+   
+
+    margin: 0 auto;
+    }
+    .hide-desktop{ /*hides small palyer */
         display: none;
     }
-    .about{
+    .about{ /* adjusts about size */
         width: 70%;
         margin: 0 auto;
     }
