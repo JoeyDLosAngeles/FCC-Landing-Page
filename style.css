@@ -348,6 +348,9 @@ footer .foot-logo-text{  /* logo text */
 .right-foot a{ /* bottom section of footer text */
     color: #e0ab81;
 }
+.left-foot a:link, a:visited{
+color: darkorange;
+}
 
 @media screen and (min-width: 775px){
     header{ /* sets new header to sticky*/
